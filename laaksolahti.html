@@ -5,8 +5,10 @@
         <script src="js/jquery.event.move.js" type="text/javascript"></script>
         <script src="js/jquery.twentytwenty.js" type="text/javascript"></script>
 
-        <h1>Dalsvikin kartanon alueet vuonna 1907 ja nyt:</h1>
-        <p>Voit vertailla karttoja liikuttamalla keskellä sijaitsevaa ympyrää.</p>
+        <div>
+            <h1>Dalsvikin kartanon alueet vuonna 1907 ja nyt:</h1>
+            <p>Voit vertailla karttoja liikuttamalla keskellä sijaitsevaa ympyrää.</p>
+        </div>
         <div id="container1">
             <img src="https://upload.wikimedia.org/wikipedia/commons/archive/2/26/20200302091759%21Laaksolahden_kartano_-_kartta.png"/>
             <img src="https://upload.wikimedia.org/wikipedia/commons/e/e1/Laaksolahti_-_Kartta.png"/>
@@ -18,7 +20,10 @@
 
         <script type="text/javascript">
             $(function() {
-                $("#container1").twentytwenty({after_label:'2020', before_label:'1907'});
+                do 
+                    $("#container1").twentytwenty({after_label:'2020', before_label:'1907'});
+                while ($('#container1')[0].clientHeight = 0);
+
             });
         </script>
     </body>
