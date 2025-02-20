@@ -1,0 +1,4 @@
+#EXTM3U
+#EXTURL:https://images.cdn.yle.fi/image/upload/f_auto,c_fill,ar_1:1,w_384,q_auto/v1718639453/yle-radio-1_square
+#EXTINF:1,Yle - Yle Radio 1
+http://icecast.live.yle.fi/radio/YleRadio1Hifi/icecast.audio
